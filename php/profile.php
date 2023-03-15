@@ -40,7 +40,7 @@ $document = [
 
 ];
 
-//$insertOneResult = $collection->insertOne($document);
+$insertOneResult = $collection->insertOne($document);
 
 if ($insertOneResult->getInsertedCount() === 1) {
     echo true;
